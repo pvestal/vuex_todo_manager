@@ -1,33 +1,45 @@
-# Vuex Todo Manager
+# This Codebase
 
-> This project is part of the Vuex Crash Course on YouTube
+> This project is to manage code snippets
 
-## Project setup
+## use nvm version recommended by Vue
+
+```
+nvm install 8.11.0
+```
+
+### install dependencies
 
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### vue cli
 
 ```
-npm run serve
+npm install -g @vue/cli
 ```
 
-### Compiles and minifies for production
+### firebase cli
+
+```
+npm install -g firebase-tools
+```
+
+### firebase init
+
+```
+firebase init
+```
+
+### vue build
 
 ```
 npm run build
 ```
 
-### Run your tests
+### firebase deploy
 
 ```
-npm run test
-```
-
-### Lints and fixes files
-
-```
-npm run lint
+firebase deploy
 ```
